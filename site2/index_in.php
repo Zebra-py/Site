@@ -38,7 +38,8 @@ session_start();
                 <div class="media">
                     <img style="margin: 11px 10px 11px 19px;" src="img/🦆 icon _audio spectrum_.svg" alt="">
                     <h2 class="my_media">Моя медиатека</h2>
-                    <button id="btn_add"><img src="/img/e14yx24bg5nlpyf234g.svg" alt=""></button>
+                    <button onclick="add()" id="btn_add"><img src="/img/e14yx24bg5nlpyf234g.svg" alt=""></button>
+                    <!-- Кпока "+" добавляет на сайт плейлист с заданым окне названием. Функционал реализован очень обрезано -->
                 </div>
                 <div id="modal">
                     <div id="window">
@@ -52,13 +53,13 @@ session_start();
                 <div class="top">
                     <span class="name_lists">Избранное</span>
                     <ul>
-                        <li class="nl"><a class="link_pl" href="#">
+                        <li class="nl"><a class="link_pl" href="playlist.php">
                                 <div class="ab">Понравившиеся</div>
                             </a></li>
-                        <li class="nl"><a class="link_pl" href="/playlist.html">
+                        <li class="nl"><a class="link_pl" href="/playlist.php">
                                 <div class="ab">Мой плейлист №1</div>
                         </li>
-                        <li class="nl"><a class="link_pl" href="#">
+                        <li class="nl"><a class="link_pl" href="playlist.php">
                                 <div class="ab">Мой плейлист №2</div>
                         </li>
                        
@@ -68,19 +69,19 @@ session_start();
                     <span class="name_lists"> Все плейлисты</span>
                     <ul id="list_ul">
                         
-                        <li class="nl"><a class="link_pl" href="#">
+                        <li class="nl"><a class="link_pl" href="playlist.php">
                                 <div class="ab">Понравившиеся</div>
                             </a></li>
-                        <li class="nl"><a class="link_pl" href="/playlist.html">
+                        <li class="nl"><a class="link_pl" href="/playlist.php">
                                 <div class="ab">Мой плейлист №1</div>
                             </a></li>
-                        <li class="nl"><a class="link_pl" href="#">
+                        <li class="nl"><a class="link_pl" href="playlist.php">
                                 <div class="ab">Мой плейлист №2</div>
                             </a></li>
-                        <li class="nl"><a class="link_pl" href="#">
+                        <li class="nl"><a class="link_pl" href="playlist.php">
                                 <div class="ab">Мой плейлист №3</div>
                             </a></li>
-                        <li class="nl"><a class="link_pl" href="#">
+                        <li class="nl"><a class="link_pl" href="playlist.php">
                                 <div class="ab">Мой плейлист №4</div>
                             </a></li>
                         <?php
@@ -95,7 +96,7 @@ session_start();
                 <div class="main">
                     <span class="podpisi">Плейлисты Spotisteal</span>
                     <div class="playlists">
-                        <a href="#">
+                        <a href="playlist.php">
                             <div class="playlist">
                                 <img src="/img/1.png" alt="">
                                 <h2 class="pl_name">Серега Пират Хиты</h2>
@@ -103,21 +104,21 @@ session_start();
                                     исполинтеля</h3>
                             </div>
                         </a>
-                        <a href="#">
+                        <a href="playlist.php">
                             <div class="playlist">
                                 <img src="/img/2.png" alt="">
                                 <h2 class="pl_name">Для детей</h2>
                                 <h3 class="pl_d">Сборник детских песен</h3>
                             </div>
                         </a>
-                        <a href="#">
+                        <a href="playlist.php">
                             <div class="playlist">
                                 <img src="/img/3.png" alt="">
                                 <h2 class="pl_name">Музыка для сна</h2>
                                 <h3 class="pl_d">Успокаивающая музыка для комфортного сна</h3>
                             </div>
                         </a>
-                        <a href="#">
+                        <a href="playlist.php">
                             <div class="playlist">
                                 <img src="/img/4.png" alt="">
                                 <h2 class="pl_name">Песни про дружбу</h2>
@@ -125,7 +126,7 @@ session_start();
                                 </h3>
                             </div>
                         </a>
-                        <a href="#">
+                        <a href="playlist.php">
                             <div class="playlist">
                                 <img src="/img/5.png" alt="">
                                 <h2 class="pl_name">PHONK</h2>
@@ -135,7 +136,7 @@ session_start();
                     </div>
                     <span class="podpisi">Подкасты</span>
                     <div class="playlists">
-                        <a href="#">
+                        <a href="playlist.php">
                             <div class="playlist">
                                 <img src="/img/6.png" alt="">
                                 <h2 class="pl_name">О кино</h2>
@@ -143,7 +144,7 @@ session_start();
                                 </h3>
                             </div>
                         </a>
-                        <a href="#">
+                        <a href="playlist.php">
                             <div class="playlist">
                                 <img src="/img/7.png" alt="">
                                 <h2 class="pl_name">Искусство </h2>
@@ -151,7 +152,7 @@ session_start();
                                 </h3>
                             </div>
                         </a>
-                        <a href="#">
+                        <a href="playlist.php">
                             <div class="playlist">
                                 <img src="/img/8.png" alt="">
                                 <h2 class="pl_name">Игровая индрустрия</h2>
@@ -159,7 +160,7 @@ session_start();
                                 </h3>
                             </div>
                         </a>
-                        <a href="#">
+                        <a href="playlist.php">
                             <div class="playlist">
                                 <img src="/img/9.png" alt="">
                                 <h2 class="pl_name">Политика</h2>

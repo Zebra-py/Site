@@ -33,7 +33,7 @@ function addBlock() {
 
         var link = document.createElement('a');
         link.className = 'link_pl';
-        link.href = '#';
+        link.href = 'playlist.html';
 
         var div = document.createElement('div');
         div.className = 'ab';
@@ -42,23 +42,17 @@ function addBlock() {
         link.appendChild(div);
         newBlock.appendChild(link);
 
-        // Добавляем блок в основной контейнер
         document.getElementById('list_ul').appendChild(newBlock);
 
-        // Сохраняем только добавленный блок на сервере
         saveAddedBlockOnServer(newBlock.outerHTML);
-
-        // Очищаем поле ввода после добавления блока
+ка
         textInput.value = '';
     }
 }
 
 function saveAddedBlockOnServer(addedBlockContent) {
-    // Отправляем данные на сервер при помощи AJAX-запроса
     var xhr = new XMLHttpRequest();
     xhr.open('POST', 'save_state.php', true);
     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-
-    // Отправляем текущее состояние блоков
     xhr.send('addedBlockContent=' + encodeURIComponent(addedBlockContent));
 }

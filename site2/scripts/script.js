@@ -1,10 +1,6 @@
 const modal = document.getElementById("modal");
 
 
-
-
-
-
 function login() {
     modal.style.display = "flex";
 }
@@ -16,10 +12,6 @@ function add() {
 function exit() {
     modal.style.display = "none";
 }
-
-
-
-
 
 
 window.onclick = function(e) {
@@ -40,7 +32,6 @@ function login2() {
             var response = JSON.parse(xhr.responseText);
             alert(response.message);
             if (response.status === 'success') {
-                // Перенаправить пользователя на другую страницу
                 window.location.href = 'index_in.php';
             }
         }
