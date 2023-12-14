@@ -1,0 +1,164 @@
+.playlist_in {
+    margin-top: 12px;
+    margin-left: 12px;
+    height: 700px;
+    width: 1170px;
+    background: #0C0D0F;
+    background: linear-gradient(180deg, rgba(54, 54, 54, 1) 0%, rgba(4, 4, 4, 1) 46%);
+    border-radius: 14px;
+}
+
+.head_pl {
+    background-image: url(/img/1590830598_61671754_p0\ 1.png);
+    border-radius: 14px 14px 0 0;
+    height: 125px;
+    background-repeat: no-repeat;
+    width: 1170px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+.head_pl_h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 40px;
+    margin-left: 24px;
+}
+
+.head_pl_span {
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 15px 15px auto auto;
+}
+
+.pl_buttons {
+    margin: 13px auto auto 27px;
+    position: relative;
+}
+
+.pl_button {
+    background: none;
+    border-style: none;
+}
+
+.play:hover {
+    height: 45px;
+    width: 45px;
+}
+
+.like:hover {
+    height: 45px;
+    width: 45px;
+}
+
+hr {
+    width: 97%;
+    border-color: #818281;
+}
+
+.nadpisi {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nadpis{
+    color: #818281;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.songs {
+    display: block;
+    justify-content: flex-start;
+}
+
+.song {
+    display: flex;
+    height: 48px
+}
+
+.song:hover {
+    background: rgba(172, 173, 172, 0.1);
+
+}
+
+.song_a {
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.number_s {
+    margin-left: 24px;
+}
+
+.img_s {
+    margin-left: 20px;
+}
+.img_button {
+    margin-left: 20px;
+    width: 44px;
+    border: none;
+    background-size: cover;
+    
+}
+.name_s {
+    text-align: left;
+    width: 25%;
+    margin-left: 14px;
+}
+
+.name_name {
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.name_autor {
+    color: #818281;
+    font-family: Nunito Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.album_s {
+    margin-left: 39px;
+    width: 25%;
+}
+
+.date_s {
+    margin-left: 26px;
+    width: 20%;
+    
+}
+
+.duration_s {
+    margin-left: 122px;
+}
